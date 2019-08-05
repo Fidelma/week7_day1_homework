@@ -29,9 +29,9 @@ document.addEventListener('DOMContentLoaded', () => { new Vue({
         this.list[index].priority = 'high'
       }
     },
-    
+
     deleteItem: function (index) {
-      this.list.splice(this.list[index], 1);
+      this.list.splice(index, 1);
     }
   }
 });
